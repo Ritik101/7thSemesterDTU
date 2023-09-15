@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experiment 9</title>
+    <style>
+      h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* font-style: italic; */
+      }
+      form {
+        text-align: center;
+        padding: 2px;
+      }
+      /*
+            div{
+              /* height: 50px; */
+      /* padding: 7px; */
+      /* background-color: rgb(248, 159, 183); */
+      /* box-sizing: border-box; */
+      /* } */
+      .container {
+        /* padding: 20px; */
+        background-color: rgb(159, 207, 248);
+        border-radius: 5px;
+        /* margin: auto; */
+      }
+      .input {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form action="backend.php">
+      <div class="container">
+        <div class="input">Username: <input type="text" name="username" /></div>
+        <!-- <br> -->
+        <div class="input">Password: <input type="text" name="pass" /></div>
+        <!-- <br> -->
+        <div class="input">
+          Confirm Password: <input type="text" name="Cpass" />
+        </div>
+        <!-- <br> -->
+        <div class="input">First Name: <input type="text" /></div>
+        <!-- <br> -->
+        <div class="input">Last Name: <input type="text" /></div>
+        <!-- <br> -->
+        <div class="input">Email: <input type="email" name="mail" /></div>
+        <!-- <br> -->
+        <div class="input">Phone No: <input type="number" /></div>
+        <!-- <br> -->
+        <div class="input">Location: <input type="text" /></div>
+        <!-- <br> -->
+        <div>
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Reset" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
